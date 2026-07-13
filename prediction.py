@@ -12,7 +12,7 @@ MODEL_PATH = "best_model_accident_detection.keras"
 CONFIG_PATH = "model_config.json"
 
 #link gdrive untuk load model
-GDRIVE_MODEL_URL = "https://drive.google.com/file/d/1JhMFqLjSTg8JM7oUiIOJVyXtMTjvXbuM/view?usp=sharing"
+GDRIVE_MODEL_URL = "https://drive.google.com/drive/folders/1JcUViymSVQq6sDWysuMx9vtFiPa_Rzbq?usp=sharing"
 
 
 @st.cache_resource(show_spinner="Mengunduh & memuat model...")

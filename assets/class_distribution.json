@@ -1,0 +1,5 @@
+{
+  "train": {"Accident": 369, "Non Accident": 422},
+  "val":   {"Accident": 46,  "Non Accident": 52},
+  "test":  {"Accident": 47,  "Non Accident": 53}
+}

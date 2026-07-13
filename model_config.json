@@ -1,0 +1,7 @@
+{
+  "idx_to_class": {
+    "0": "Accident",
+    "1": "Non Accident"
+  },
+  "img_size": [150, 150]
+}

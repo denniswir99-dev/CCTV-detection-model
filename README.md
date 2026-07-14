@@ -1,13 +1,3 @@
----
-title: Accident Detection from CCTV Footage
-colorFrom: red
-colorTo: blue
-sdk: streamlit
-app_file: app.py
-pinned: false
-license: mit
----
-
 # Accident Detection from CCTV Footage
 
 Aplikasi ini mendeteksi apakah sebuah frame CCTV menunjukkan kondisi **Accident**

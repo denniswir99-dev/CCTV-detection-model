@@ -75,9 +75,9 @@ def run():
 
         with col2:
             if pred_label == "Accident":
-                st.error(f"Prediksi Sukses: **{pred_label}**")
+                st.error(f"Prediksi dilakukan, hasil prediksi: **{pred_label}**")
             else:
-                st.success(f"Prediksi Sukses: **{pred_label}**")
+                st.success(f"Prediksi dilakukan, hasil prediksi: **{pred_label}**")
 
             st.metric("Confidence", f"{confidence * 100:.2f}%")
     else:

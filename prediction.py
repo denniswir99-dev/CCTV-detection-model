@@ -69,16 +69,16 @@ def run():
             pred_prob = model.predict(image_batch, verbose=0)[0][0]
 
         pred_idx = int(pred_prob > 0.5)
-        pred_label = idx_to_class[pred_idx]              # konversi angka -> label string asli
+#konversi angka ke label string
+        pred_label = idx_to_class[pred_idx]        
         confidence = pred_prob if pred_idx == 1 else 1 - pred_prob
 
         with col2:
             if pred_label == "Accident":
-                st.error(f"Prediksi Error: **{pred_label}**")
+                st.error(f"Prediksi Sukses: **{pred_label}**")
             else:
                 st.success(f"Prediksi Sukses: **{pred_label}**")
 
             st.metric("Confidence", f"{confidence * 100:.2f}%")
-            st.caption(f"Probabilitas mentah (kelas index 1): {pred_prob:.4f}")
     else:
         st.info("Silakan unggah gambar terlebih dahulu untuk melihat hasil prediksi.")
